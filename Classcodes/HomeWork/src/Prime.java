@@ -1,19 +1,25 @@
 import java.util.Scanner;
-public class HelloWorld {
+public class Prime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int count=0;
-		while(n>0)
-		{	n=n/10;
-			count++;
-			if(n==0)
+		int i=2,flag=0;
+		while(i<=Math.sqrt(n))
+		{
+			if(n%i==0)
 			{
+				flag=1;
 				break;
 			}
+			i++;
 		}
-		System.out.println(count);
+		if(flag==1)
+		{
+			System.out.println("Not Prime");
+		}
+		else
+			System.out.println("Prime");
 	}
 }
