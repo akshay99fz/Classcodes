@@ -1,3 +1,4 @@
+//Triangle is valid or not
 import java.util.Scanner;
 
 public class ValidTraingle {

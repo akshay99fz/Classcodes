@@ -1,5 +1,5 @@
+//program to print the meaning of various grades.
 import java.util.Scanner;
-
 public class GradeMeaning {
 
 	public static void main(String[] args) {

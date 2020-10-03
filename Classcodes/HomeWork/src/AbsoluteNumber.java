@@ -1,3 +1,4 @@
+//Program to find Absolute Number
 import java.util.Scanner;
 public class AbsoluteNumber {
 

@@ -1,25 +1,21 @@
+//Program to find maximum out of three numbers
 import java.util.Scanner;
 public class MaximumOfThree {
 	public static void main(String[] args)
 	{
-		int a =10;
-		int b=5;
-		char operator='*';
-		if(operator=='+')
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+		int max=a;
+		if(b>max)
 		{
-		System.out.println("Sum "+ (a+b));
+			max=b;
 		}
-		else if(operator=='-')
+		if(c>max)
 		{
-		System.out.println("Difference "+(a-b));
+			max=c;
 		}
-		else if(operator=='*')
-		{
-		System.out.println("Multiplication "+(a*b));
-		}
-		else if(operator=='/')
-		{
-		System.out.println("Division "+(a/b));
-		}
+		System.out.println(max);
 	}
 }

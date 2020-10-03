@@ -1,5 +1,5 @@
+//Program to find the grade based on marks obtained.
 import java.util.Scanner;
-
 public class GradeCalculator {
 
 	public static void main(String[] args) {

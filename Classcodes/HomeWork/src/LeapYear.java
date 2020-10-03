@@ -1,5 +1,5 @@
+//Program to print whether a year is leap year or not.
 import java.util.Scanner;
-
 public class LeapYear {
 
 	public static void main(String[] args) {
